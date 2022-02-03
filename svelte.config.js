@@ -12,7 +12,7 @@ const config = {
   ],
 
   kit: {
-    adapter: adapter(),
+    adapter: adapter(),netlify(),
 
     // Override http methods in the Todo forms
     methodOverride: {

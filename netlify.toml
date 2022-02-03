@@ -1,0 +1,4 @@
+[build]
+  command = "pnpm dev"
+  publish = "build/"
+  functions = "functions/"
