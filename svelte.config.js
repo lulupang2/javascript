@@ -12,8 +12,10 @@ const config = {
   ],
 
   kit: {
-    adapter: adapter(),netlify()
-    },
-  };
+                adapter: netlify(), //<--- 추가
+                // hydrate the <div id="svelte"> element in src/app.html
+                target: '#svelte'
+        }
+};
 
 export default config;
