@@ -1,20 +1,10 @@
-import preprocess from "svelte-preprocess";
-import netlify from "@sveltejs/adapter-netlify";
 /** @type {import('@sveltejs/kit').Config} */
+import adapter from '@sveltejs/adapter-netlify'
 const config = {
-  // Consult https://github.com/sveltejs/svelte-preprocess
-  // for more information about preprocessors
-  preprocess: [
-    preprocess({
-      postcss: true,
-    }),
-  ],
-
-  kit: {
-    adapter: netlify(), //<--- 추가
-    // hydrate the <div id="svelte"> element in src/app.html
-    target: "#svelte",
-  },
+	kit: {
+		// hydrate the <div id="svelte"> element in src/app.html
+    adapter: adapter()
+	}
 };
 
 export default config;
