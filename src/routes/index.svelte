@@ -10,7 +10,9 @@
         Svelte를 다시 remind 할겸 Sveltekit도 한번 써보는 연습겸
       </p>
 
-      <button class="btn btn-outline btn-primary">Get Started</button>
+      <a href="content"
+        ><button class="btn btn-outline btn-primary">Get Started</button></a
+      >
     </div>
   </div>
 </div>
