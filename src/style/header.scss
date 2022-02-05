@@ -1,9 +1,14 @@
 #Header {
+    position: relative;
     flex: 2;
     background-color: rgba(0,0,0,0.2);
     li {
         font-size: 1.2rem;
         transition: 1s all ease-in;
+    }
+    .menu {
+        position: sticky;
+        top:0;
     }
 
 }
