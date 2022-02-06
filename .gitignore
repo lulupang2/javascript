@@ -8,3 +8,5 @@ node_modules
 !.env.example
 .vercel
 .output
+/src/lib/example/temp.js
+/src/lib/example/temp.html

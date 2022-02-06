@@ -1,11 +1,9 @@
 <script>
   import Header from "$lib/header/Header.svelte";
-
   import "../app.scss";
 </script>
 
 <Header />
-
 <!-- The 'index.svelte' will go here. -->
 <slot />
 
