@@ -1,7 +1,7 @@
 <script lang="ts">
   import Let from "$lib/example/Let.svelte";
 
-  import Var from "$lib/example/var.svelte";
+  import Var from "$lib/example/Var.svelte";
 </script>
 
 <main id="content">
