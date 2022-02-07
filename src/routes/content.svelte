@@ -1,6 +1,7 @@
-<script lang="ts">
-  import Let from "$lib/example/Let.svelte";
+<script>
+  import Const from "$lib/example/Const.svelte";
 
+  import Let from "$lib/example/Let.svelte";
   import Var from "$lib/example/Var.svelte";
 </script>
 
@@ -30,8 +31,19 @@
             <br />
             <Var />
             <Let />
+            <Const />
             <br />
           </p>
+          <div class="text-container border px-3.5 w-full">
+            <p class="mb-5 w-full" id="1">
+              <span class="text-2xl">정리</span><br />
+              무엇을 써야하는가?<br />
+              변수선언에는 기본적으로 const를 사용하고 let은 재할당이 필요한 경우에
+              사용하는 것이 좋다.<br />
+              const를 사용하면 의도치 않은 재할당을 방지하기 때문에 좀 더 안전하다.<br
+              />
+            </p>
+          </div>
         </div>
       </div>
     </div>
